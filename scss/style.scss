@@ -1,0 +1,338 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap);
+@import "variables.scss" 
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+}
+
+body {
+  background:white;
+  max-width: 900px;
+  margin: auto;
+}
+
+header .topbottom {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.3em;    
+  
+  p {
+  font-size: 0.8em;
+  color: rgb(87, 87, 87);
+  align-self: center;  
+  color: rgb(126, 125, 125);
+  margin-right: 100px;
+}
+  button {
+  background: rgba(5, 130, 255, 0.992);
+  color: white;
+  margin-left: 100px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+} //button
+} //header
+
+.header-1 {
+  background-image: url(../content/jura.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1em;
+  line-height: 33px;
+
+
+  h2 {
+    text-align: center;    
+  }
+
+  .header-2 {
+    padding: 1em;
+
+  input {
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    width: 250px;
+    color: rgb(185, 183, 183);
+  }  
+
+  button {
+    background: rgba(5, 130, 255, 0.992);
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    width: 90px;
+  }
+  }//header-2
+}//header-1
+
+main {
+  background: rgb(244, 244, 244);
+  // max-width: 760px;
+  // margin: auto;
+
+}
+
+section {
+  display: flex;
+  justify-content: center;  
+  text-align: center;
+  font-size: 0.8em;
+  height: 270px;
+  align-items: center;
+  line-height: 20px;
+
+  .boot {
+    width: 215px;
+    margin: 10px;    
+  }
+
+i {
+  padding-top: 40px;
+  height: 50px;
+  width: 30px;
+  color: rgba(5, 130, 255, 0.992);
+  font-size: 3em;
+}
+
+p{
+  color: rgb(195, 195, 195);
+}
+} //section;
+
+article { 
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 22px;  
+
+h2 {
+  padding-bottom: 15px;
+}
+
+.text p {
+  color: rgb(195, 195, 195);
+}
+
+.text-1 { 
+  background: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;  
+  width: 450px;
+  height: 300px;  
+}
+.text-2 { 
+  background: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;  
+  width: 450px;
+  height: 300px;  
+}
+.text-3 { 
+  background: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;  
+  width: 450px;
+  height: 300px;  
+}
+
+.images {
+  width: 450px;
+  height: 300px;  
+}
+
+.img-1 {
+    background-image: url(../content/img-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-2 {
+    background-image: url(../content/img-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-3 {
+    background-image: url(../content/img-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+} //images
+
+aside {   
+  
+  h3 {
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    top: 30px;
+  }
+  
+section {
+  display: flex;
+  height: 340px; 
+  
+.people {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: center;
+  // box-sizing: border-box;
+  width: 230px;
+  margin: 0 20px;
+h4 {
+  padding-top: 10px;
+} 
+p {
+  font-size: 0.9em;
+}
+.antras {
+  position: relative;
+  top: 10px;
+}
+} //people
+
+.people-1 {
+  background-image: url(../content/people-1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  box-shadow: 0 3px 2px rgb(179, 179, 179);
+  width: 140px;
+  height: 140px;
+}
+.people-2 {
+  background-image: url(../content/people-2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  box-shadow: 0 3px 2px rgb(179, 179, 179);
+  width: 140px;
+  height: 140px;
+  
+}
+.people-3 {
+  background-image: url(../content/people-3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  box-shadow: 0 3px 2px rgb(179, 179, 179);
+  width: 140px;
+  height: 140px;
+}
+} //section 
+} //aside
+
+footer {
+  
+  .footer {
+    background-image: url(../content/jura.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1em;
+    line-height: 33px;
+
+  h2 {
+    text-align: center;
+    font-size: 1.3em;
+  }
+  
+  .footer-1 {
+    padding: 1em;
+  
+    input {
+      padding: 7px;
+      border: none;
+      border-radius: 3px;
+      width: 250px;
+      color: rgb(185, 183, 183);
+    }
+  
+    button {
+      background: rgba(5, 130, 255, 0.992);
+      color: white;
+      padding: 7px;
+      border: none;
+      border-radius: 3px;
+      width: 90px;
+    }
+  }//footer-1  
+  }//footer  
+
+div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 120px;
+
+a {
+  color: rgba(5, 130, 255, 0.992);
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+p {
+  padding-left: 0;
+}
+
+} //bottom
+
+.social {
+  font-size: 1.1em;
+  color: rgba(5, 130, 255, 0.992);
+  
+i {
+  margin: 0 10px;
+}
+} //social
+} //footer
+
+// @media '('max-width: 400px')' {
+  
+//   header .header-1 {
+//     display: flex;
+//     flex-direction: column;
+//     flex-wrap: wrap;
+//   }
+
+//   header section {
+//     width: 40%;
+//   }
+  
+//   article {
+//     display: flex;
+//     flex-direction: column;
+//     // flex-wrap: wrap;
+//     align-items: center;
+//     width: 400px;
+    
+//   }
+// }
+
